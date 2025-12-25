@@ -1,0 +1,12 @@
+your-bot-project/
+├── src/
+│   ├── server.js          # Express主服务器
+│   ├── whatsapp-bot.js    # WhatsApp连接层
+│   ├── telegram-bot.js    # Telegram连接层
+│   ├── deepseek-client.js # DeepSeek API客户端
+│   ├── payment-service.js # 支付服务(Razorpay/Stripe)
+│   ├── webhook-handler.js # Webhook处理器
+│   └── utils/
+│       └── book-formatter.js # 格式化类书答案
+├── package.json
+└── .env
